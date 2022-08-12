@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("./Dashboard\ Login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    height: 760px;
+}
+
+.content-container {
+    margin: 200px 40%;
+}
+
+.background-image img {
+    height: 110%;
+    width: 1439px;
+}
+
+.cart img{
+    height: 100px;
+    margin-left: 75px;
+  }
+
+#username {
+    margin-top: 50px;
+}
+
+#password {
+    margin-top: 20px;
+}
+
+.content-container input[type="text"] {
+    border: 1px solid white;
+    outline: none;
+    border-radius: 4px;
+    left: 530px;
+    height: 43px;
+    width: 230px;
+    padding-left: 50px;
+    background-color: #1a44c2;
+    color: white;
+    line-height: 20px;
+}
+
+.icon {
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+    color: white;
+}
+
+
+.content-container input[type="button"] {
+    font-weight: bolder;
+    top: 500px;
+    left: 530px;
+    height: 43px;
+    width: 280px;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color:  #2148C0;
+}
+
+.content-container input, p {
+    font-family: "montserrat", sans-serif;
+    font-size: 16px;
+}
+
+#lock {
+    margin-top: 26px;
+}
+
+#user {
+    margin-top: 57px; 
+}
+
+.text {
+    margin-left: 130px;
+    color: white;
+}
+
